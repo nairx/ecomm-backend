@@ -1,0 +1,13 @@
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\config\WebConfig.java
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\controller\OrderController.java
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\controller\OrderRequest.java
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\controller\ProductController.java
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\controller\UserController.java
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\EcommApplication.java
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\model\Order.java
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\model\Product.java
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\model\User.java
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\repository\OrderRepository.java
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\repository\ProductRepository.java
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\repository\UserRepository.java
+D:\batches\mahindra\ecomm-backend\src\main\java\com\mh\ecomm\service\userService.java
