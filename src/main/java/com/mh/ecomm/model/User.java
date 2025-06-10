@@ -1,5 +1,10 @@
 package com.mh.ecomm.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import jakarta.persistence.*;
 
 @Entity
@@ -47,4 +52,5 @@ public class User {
     public void setPass(String pass) {
         this.pass = pass;
     }
+   
 }
