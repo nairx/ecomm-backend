@@ -1,5 +1,5 @@
 # Start from an official Java image
-FROM eclipse-temurin:17-jdk-jammy
+FROM eclipse-temurin:22-jdk
 #testing
 # Set working directory
 WORKDIR /app
