@@ -20,16 +20,6 @@ public class ProductController {
         return productRepository.findAll();
     }
 
-    @GetMapping("/name/{name}")
-    public List<Product> getProductsByName(@PathVariable String name) {
-        return productRepository.findByName(name);
-    }
-
-    @GetMapping("/namelike/{name}")
-    public List<Product> getProductsByNameLike(@PathVariable String name) {
-        return productRepository.findByNameContainingIgnoreCase(name);
-    }
-
     @GetMapping("/{id}")
     public Product getProductById(@PathVariable Long id) {
         return productRepository.findById(id)

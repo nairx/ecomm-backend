@@ -28,7 +28,7 @@ public class OrderController {
 
     @PostMapping
     public Order createOrder(@RequestBody Order order) {
-        order.setProduct(order.getProduct());
+        order.setName(order.getName());
         order.setPrice(order.getPrice());
         order.setQty(order.getQty());
         order.setEmail(order.getEmail());

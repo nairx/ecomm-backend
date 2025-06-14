@@ -43,7 +43,7 @@ public class UserController {
          User user = userRepository.findByEmail(loginRequest.getEmail());
 
         if (user != null && user.getPass().equals(loginRequest.getPass())) {
-            return ResponseEntity.ok(user.getName());
+            return ResponseEntity.ok(user.getEmail());
         } else {
             return ResponseEntity.status(401).body("Invalid username or password.");
         }
