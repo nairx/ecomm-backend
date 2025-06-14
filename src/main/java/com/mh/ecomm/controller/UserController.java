@@ -21,22 +21,22 @@ public class UserController {
         return userRepository.findAll();
     }
 
-    // @PostMapping("/register")
-    // public User register(@RequestBody User user) {
-    //     return userRepository.save(user);
-    // }
-
     @PostMapping("/register")
-    public ResponseEntity<String> register(@RequestBody User loginRequest) {
-         User user = userRepository.findByEmail(loginRequest.getEmail());
-
-        if (user == null) {
-            userRepository.save(loginRequest);
-            return ResponseEntity.ok("Registration successful!");
-        } else {
-            return ResponseEntity.status(401).body("Duplicate Email.");
-        }
+    public User register(@RequestBody User user) {
+        return userRepository.save(user);
     }
+
+    // @PostMapping("/register")
+    // public ResponseEntity<String> register(@RequestBody User loginRequest) {
+    //      User user = userRepository.findByEmail(loginRequest.getEmail());
+
+    //     if (user == null) {
+    //         userRepository.save(loginRequest);
+    //         return ResponseEntity.ok("Registration successful!");
+    //     } else {
+    //         return ResponseEntity.status(401).body("Duplicate Email.");
+    //     }
+    // }
 
     @PostMapping("/login")
     public ResponseEntity<String> login(@RequestBody User loginRequest) {
